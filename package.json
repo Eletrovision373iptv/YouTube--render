@@ -1,9 +1,15 @@
 {
-  "name": "sbt-render",
+  "name": "youtube-live-server",
   "version": "1.0.0",
-  "description": "Stream SBT",
-  "main": "server.js",
+  "description": "Servidor de streaming YouTube Live",
+  "main": "serveryoutube.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "keywords": ["youtube", "live", "streaming", "iptv"],
+  "author": "",
+  "license": "MIT"
 }
